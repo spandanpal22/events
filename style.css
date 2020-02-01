@@ -1122,3 +1122,121 @@ body.notouch {
 	right: unset;
 	overflow: initial
 }
+
+
+
+
+.event-title {
+	font-style: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-top: 40px;
+	font-size: 40px;
+	right: 40px;
+	color: #000;
+  }
+  .event-image1 {
+	width: auto;
+	height: 30vh;
+	padding-left: 27%;	
+  }
+  .event-image2 {
+	width: auto;
+	height: 30vh;
+	padding-left: 27%;	
+	
+  }
+  .event-image3 {
+	width: auto;
+	height: 30vh;
+	padding-left: 37%;	
+	
+  }
+  .event-image4 {
+	width: auto;
+	height: 30vh;
+	padding-left: 37%;	
+	
+  }
+  
+  .about-event1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-top: 30px;
+	color: rgb(204, 197, 197);
+	font-size: 2em;
+	
+  }
+  .about-event2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-top: 30px;
+	color: rgb(204, 197, 197);
+	font-size: 2em;
+	
+  }
+  .about-event3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-top: 30px;
+	color: rgb(204, 197, 197);
+	font-size: 2em;
+	
+  }
+  .about-event4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-top: 30px;
+	color: rgb(204, 197, 197);
+	font-size: 2em;
+	
+  }
+  .about-event{
+	  text-align: center;
+  }
+  .event-title{
+	  text-align: center;
+  }
+  .row{
+	  right: 30px;
+  }
+  @media only screen and (max-width: 600px) {
+	.event-image {
+	  width: 85vw;
+	  height: 30vh;
+	  float: left;
+	  margin-bottom: 10%;
+	  padding-left: 10%;
+	  padding-top: 2%;
+	}
+	/* .event-image3 {
+	  width: 80vw;
+	  height: auto;
+	  float: left;
+	}
+	.event-image4 {
+	  width: 80vw;
+	  height: auto;
+	  float: left;
+	} */
+	.event-title {
+	  font-style: normal;
+	  font-family: Georgia, "Times New Roman", Times, serif;
+	  margin-top: 2%;
+	  margin-bottom: 5%;
+	  font-size: 2rem;
+	  /* right: 40px; */
+	  color: #000;
+	  text-align: center;
+	}
+	.about-event {
+		font-size: 1.2rem;
+		margin-top: 0px;
+		text-align: center;
+	}
+	.sq, .title {
+	  height: auto;
+	  display: unset;
+	}
+	.row{
+		padding: 20px;
+	}
+	:root {
+	  --main-padding: 0px;
+	}
+  }
