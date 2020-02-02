@@ -1195,6 +1195,12 @@ body.notouch {
   .row{
 	  right: 30px;
   }
+
+  .aarohanLogo{
+	padding-left: 100px;
+	margin: auto;
+	margin-top: 80px;
+}
   @media only screen and (max-width: 600px) {
 	.event-image {
 	  width: 85vw;
@@ -1239,4 +1245,11 @@ body.notouch {
 	:root {
 	  --main-padding: 0px;
 	}
+	.aarohanLogo{
+		padding-left: unset;
+		margin: auto;
+		margin-top: 80px;
+	}
   }
+
+  
